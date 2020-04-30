@@ -1,5 +1,5 @@
 module.exports = {
-  title: "K8s Workshop",
+  title: "Kubernetes Workshop",
   tagline: "Introduction to the basics of Kubernetes for Developers",
   url: "https://stackworx.github.io/",
   baseUrl: "/k8s-workshop/",
@@ -8,7 +8,7 @@ module.exports = {
   projectName: "k8s-workshop",
   themeConfig: {
     navbar: {
-      title: "K8s Workshop",
+      title: "Kubernetes Workshop",
       logo: {
         alt: "Logo",
         src: "img/logo.svg",
