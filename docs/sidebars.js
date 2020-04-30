@@ -8,7 +8,6 @@ module.exports = {
       "pods",
       "services",
       "workloads",
-      "debugging",
     ],
   },
 };

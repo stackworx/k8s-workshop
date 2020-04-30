@@ -2,14 +2,14 @@
 title: Requirements
 ---
 
-## Required Tools
+### Tools
 
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [docker for mac/windows](https://docs.docker.com/docker-for-windows/install/) with kubernetes enabled
 - [helm](https://helm.sh/docs/intro/install/)
 - [Krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
 
-## Enable Docker Kubernetes
+### Enable Docker Kubernetes
 
 Click on the docker tray icon and select Preferences
 

@@ -2,8 +2,6 @@
 title: Manifests
 ---
 
-## Configuring Kubernetes
-
 Kubernetes is configured mostly via `yaml` files often referred to as manifests
 
 ### Type

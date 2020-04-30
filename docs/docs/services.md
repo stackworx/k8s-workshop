@@ -2,8 +2,6 @@
 title: Services, Load Balancing, and Networking
 ---
 
-## Services
-
 ```yaml
 apiVersion: v1
 kind: Service
@@ -66,7 +64,7 @@ spec:
       targetPort: 8080 # Exposed port in the container
 ```
 
-## Ingress
+### Ingress
 
 ### References
 

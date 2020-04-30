@@ -10,7 +10,7 @@ Make sure you have completed the [requirements](requirements.md) first
 k cluster-info
 ```
 
-### Example Output
+#### Example Output
 
 ```
 Kubernetes master is running at https://12345.ondigitalocean.com
@@ -25,7 +25,7 @@ k get nodes
 k get nodes -o wide # show extra info
 ```
 
-### Example Output
+#### Example Output
 
 ```
 NAME                  STATUS   ROLES    AGE    VERSION
@@ -38,7 +38,7 @@ pool-3puojptkz-agmg   Ready    <none>   164d   v1.16.2
 k get pods
 ```
 
-### Example Output
+#### Example Output
 
 ```
 NAME                                   READY   STATUS      RESTARTS   AGE
