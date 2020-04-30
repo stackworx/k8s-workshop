@@ -14,17 +14,33 @@ function useFeatures() {
     {
       title: <>Docker</>,
       imageUrl: "img/docker.png",
-      description: <>Container virtualization technology</>,
+      description: (
+        <>
+          A Docker container image is a lightweight, standalone, executable
+          package of software that includes everything needed to run an
+          application: code, runtime, system tools, system libraries and
+          settings.
+        </>
+      ),
     },
     {
       title: <>Kubernetes</>,
       imageUrl: "img/logo.svg",
-      description: <>Orchestration Framework</>,
+      description: (
+        <>
+          is an open source container orchestration engine for automating
+          deployment, scaling, and management of containerized applications
+        </>
+      ),
     },
     {
       title: <>Helm</>,
       imageUrl: isDarkTheme ? "img/helm-dark.svg" : "img/helm-light.svg",
-      description: <>The Kubernetes package manager</>,
+      description: (
+        <>
+          is the best way to find, share, and use software built for Kubernetes.
+        </>
+      ),
     },
   ];
 }
@@ -77,7 +93,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/requirements")}
+              to={useBaseUrl("docs/getting-started")}
             >
               Get Started
             </Link>

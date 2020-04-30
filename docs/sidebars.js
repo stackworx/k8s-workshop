@@ -1,5 +1,14 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ["requirements", "background", "manifests", "debugging"],
+    Workshop: [
+      "background",
+      "requirements",
+      "getting-started",
+      "manifests",
+      "pods",
+      "services",
+      "workloads",
+      "debugging",
+    ],
   },
 };
