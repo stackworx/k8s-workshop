@@ -1,8 +1,8 @@
 module.exports = {
   title: "K8s Workshop",
   tagline: "Introduction to the basics of Kubernetes for Developers",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://stackworx.github.io/",
+  baseUrl: "/k8s-workshop/",
   favicon: "img/favicon.ico",
   organizationName: "stackworx",
   projectName: "k8s-workshop",
