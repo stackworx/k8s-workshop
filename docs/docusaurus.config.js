@@ -65,7 +65,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/stackworx/k8s-workshop/edit/master/website/",
+            "https://github.com/stackworx/k8s-workshop/edit/master/docs/",
         },
         // blog: {
         //   showReadingTime: true,
