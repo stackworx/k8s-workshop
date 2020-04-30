@@ -66,8 +66,28 @@ spec:
 
 ### Ingress
 
+```yaml
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: test-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /testpath
+            pathType: Prefix
+            backend:
+              serviceName: test
+              servicePort: 80
+```
+
 ### References
 
 - https://kubernetes.io/docs/concepts/services-networking/service/#service-resource
 - https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/
 - https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
+- https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
+- https://docs.traefik.io/providers/kubernetes-ingress/
