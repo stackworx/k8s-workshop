@@ -2,6 +2,8 @@
 title: Requirements
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ### Tools
 
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -17,7 +19,7 @@ Click on the docker tray icon and select Preferences
 2. Click Enable
 3. Click Apply and Restart
 
-![enable-docker-kubernetes](/static/img/enable-docker-kubernetes.png)
+<img alt="Enabling Kubernetes" src={useBaseUrl('img/enable-docker-kubernetes.png')} />;
 
 ### Mac
 
