@@ -30,7 +30,7 @@ kind: Pod
 metadata:
   name: mypod
   namespace: myapp
-   annotations:
+  annotations:
     # Often used to embed data
     imageregistry: "https://hub.docker.com/"
   labels:
